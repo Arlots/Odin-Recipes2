@@ -1,6 +1,7 @@
 h1 {
     text-align: center;
     border-bottom: 2px solid;
+    border-color: darkmagenta;
 }
 
 .mac, .pork, .chicken {
@@ -8,4 +9,9 @@ h1 {
     width: 250px;
     border: 2px solid;
     border-radius: 10px;
+}
+
+.image-box {
+    display: flex;
+    justify-content: space-around;
 }
