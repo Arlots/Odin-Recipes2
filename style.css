@@ -1,7 +1,10 @@
 h1 {
     text-align: center;
-    border-bottom: 2px solid;
-    border-color: darkmagenta;
+    display: block;
+    width: 50%;
+    border-bottom: 2px solid purple;
+    padding-bottom: 10px;
+    margin: auto;
 }
 
 .mac, .pork, .chicken {
@@ -9,6 +12,7 @@ h1 {
     width: 250px;
     border: 2px solid;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .image-box {
