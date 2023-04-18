@@ -1,3 +1,6 @@
+body {
+    background-color: floralwhite;
+}
 h1 {
     text-align: center;
     display: block;
@@ -12,10 +15,23 @@ h1 {
     width: 250px;
     border: 2px solid;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 1px 5px;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px darkblue;
 }
 
 .image-box {
     display: flex;
     justify-content: space-around;
+}
+
+h4 {
+    text-align: center;
 }
